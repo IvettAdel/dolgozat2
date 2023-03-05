@@ -9,7 +9,7 @@
 */
 
 const tbody = document.querySelector('#tbody');
-var empList = [
+var tableList = [
     { name: 'cassis', Wheel: 28, Use:'offroad', Price: 557900 },
     { name: 'Alboin 900', Wheel: 28, Use:'trekking', Price: 519900 },
     { name: 'Asgard', Wheel: 29, Use:'technikás utak', Price: 519900 },
@@ -19,8 +19,8 @@ var empList = [
 ];
 
 function createTable() {
-    empList.forEach((emp) => {
-        console.log(emp.name)   
+    tableList.forEach((table) => {
+        console.log(table.name)   
         let tr = document.createElement('tr');
 
        
@@ -30,10 +30,10 @@ function createTable() {
         let tdPrice = document.createElement('td');
 
         
-        tdName.textContent = emp.name;
-        tdWheel.textContent = emp.Wheel;
-        tdUse.textContent = emp.Use;
-        tdPrice.textContent = emp.Price;
+        tdName.textContent = table.name;
+        tdWheel.textContent = table.Wheel;
+        tdUse.textContent = table.Use;
+        tdPrice.textContent = table.Price;
 
         tbody.append(tr);
         tr.append(tdName);
