@@ -11,9 +11,9 @@
     border: 5px solid rgb(0, 68, 255);
     text-align: center;
     position: fixed;
-    width: 650px;
-    top: 60px;
-    right: -250px;
+    width: 750px;
+    top: 65px;
+    right: -280px;
     transform: rotate(45deg);
     font-size: 12px;
 }
