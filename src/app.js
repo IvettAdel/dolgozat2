@@ -1,10 +1,10 @@
 /*
 * File: app.js
-* Author: Erős István
+* Author: Verebélyi Ivett
 * Copyright: 2023, Verebélyi Ivett
 * Group: Szoft I-2 E
 * Date: 2023-03-06
-* Github: https://github.com/erosistvan/
+* Github: https://github.com/IvettAdel
 * Licenc: GNU GPL
 */
 
